@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Modal />
+      <button className="btn btn-danger">HALO</button>
     </>
   );
 }
