@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-const Navbar = () => {
+const Main = () => {
     return (
         <>
             {/* Navigation*/}
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm" id="mainNav"
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm" id="mainNav"
             style={{height: '6rem'}}
             >
                 <div className="container px-5">
@@ -49,4 +49,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Main;

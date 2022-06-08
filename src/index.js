@@ -8,6 +8,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 // import './ /Style.scss';
 import './assets/Style.scss';
+import './assets/Index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
