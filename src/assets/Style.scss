@@ -1,4 +1,15 @@
 @charset "utf-8";
-.bg-blues {
-    background-color: blue;
+.grad-color-white-black {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.grad-color-white-purple {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#fff, #4b46ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

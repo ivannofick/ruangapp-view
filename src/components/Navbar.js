@@ -5,13 +5,12 @@ const Navbar = () => {
     return (
         <>
             {/* Navigation*/}
-            <nav
-                className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm"
-                id="mainNav"
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm" id="mainNav"
+            style={{height: '6rem'}}
             >
                 <div className="container px-5">
-                    <a className="navbar-brand fw-bold" href="#page-top">
-                        Start Bootstrap
+                    <a className="navbar-brand fw-bold grad-color-white-purple" href="#page-top">
+                        Ruangapp
                     </a>
                     <button
                         className="navbar-toggler"
@@ -22,8 +21,7 @@ const Navbar = () => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        Menu
-                        <i className="bi-list" />
+                        <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
@@ -34,20 +32,15 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link me-lg-3" href="#download">
-                                    Download
+                                    Products
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link me-lg-3" href="#download">
+                                    Blog
                                 </a>
                             </li>
                         </ul>
-                        <button
-                            className="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
-                            data-bs-toggle="modal"
-                            data-bs-target="#feedbackModal"
-                        >
-                            <span className="d-flex align-items-center">
-                                <i className="bi-chat-text-fill me-2" />
-                                <span className="small">Send Feedback</span>
-                            </span>
-                        </button>
                     </div>
                 </div>
             </nav>
